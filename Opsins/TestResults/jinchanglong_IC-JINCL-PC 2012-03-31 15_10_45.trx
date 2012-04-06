@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="792c00c4-f488-440d-9d34-3a1f864e5f32" name="jinchanglong@IC-JINCL-PC 2012-03-31 15:10:45" runUser="YGSOFT\jinchanglong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="94953c09-8701-4707-8647-9dc35c1618b9">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="jinchanglong_IC-JINCL-PC 2012-03-31 15_10_45">
+      <DeploymentItem filename="E:\Opsins\Src\Opsins\Opsins.Library\bin\Debug\Opsins.Library.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-31T15:10:45.5369678+08:00" queuing="2012-03-31T15:10:45.6009742+08:00" start="2012-03-31T15:10:45.6349776+08:00" finish="2012-03-31T15:10:46.0010142+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsNullTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="aa4e672c-5404-54fc-a1af-8cb83c13c098">
+      <Execution id="335467ed-84cb-40db-8b91-84c584253a43" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.ObjectExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNullTest" />
+    </UnitTest>
+    <UnitTest name="InStringTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="16fe6d19-c90e-0c23-1cc7-b671ce3deb65">
+      <Execution id="9ffab059-0ca6-48a2-915e-763814d3af95" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.InExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InStringTest" />
+    </UnitTest>
+    <UnitTest name="NotInIntTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="24f7f4f8-86be-fe4e-e97a-5247b87b2ad9">
+      <Execution id="1c4a9b2c-f6e2-415d-bb9e-4f7b11e2a087" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.InExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotInIntTest" />
+    </UnitTest>
+    <UnitTest name="IsNotNullTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="c288a13f-0451-3445-6540-e8ef39e23749">
+      <Execution id="6e6b9a17-9227-4a0b-8739-ebebb1f324f8" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.ObjectExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNotNullTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="16fe6d19-c90e-0c23-1cc7-b671ce3deb65" executionId="9ffab059-0ca6-48a2-915e-763814d3af95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24f7f4f8-86be-fe4e-e97a-5247b87b2ad9" executionId="1c4a9b2c-f6e2-415d-bb9e-4f7b11e2a087" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa4e672c-5404-54fc-a1af-8cb83c13c098" executionId="335467ed-84cb-40db-8b91-84c584253a43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c288a13f-0451-3445-6540-e8ef39e23749" executionId="6e6b9a17-9227-4a0b-8739-ebebb1f324f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9ffab059-0ca6-48a2-915e-763814d3af95" testId="16fe6d19-c90e-0c23-1cc7-b671ce3deb65" testName="InStringTest" computerName="IC-JINCL-PC" duration="00:00:00.0171920" startTime="2012-03-31T15:10:45.6479789+08:00" endTime="2012-03-31T15:10:45.8770018+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ffab059-0ca6-48a2-915e-763814d3af95">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c4a9b2c-f6e2-415d-bb9e-4f7b11e2a087" testId="24f7f4f8-86be-fe4e-e97a-5247b87b2ad9" testName="NotInIntTest" computerName="IC-JINCL-PC" duration="00:00:00.0006161" startTime="2012-03-31T15:10:45.8830024+08:00" endTime="2012-03-31T15:10:45.8860027+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c4a9b2c-f6e2-415d-bb9e-4f7b11e2a087">
+    </UnitTestResult>
+    <UnitTestResult executionId="335467ed-84cb-40db-8b91-84c584253a43" testId="aa4e672c-5404-54fc-a1af-8cb83c13c098" testName="IsNullTest" computerName="IC-JINCL-PC" duration="00:00:00.0003065" startTime="2012-03-31T15:10:45.8920033+08:00" endTime="2012-03-31T15:10:45.8940035+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="335467ed-84cb-40db-8b91-84c584253a43">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e6b9a17-9227-4a0b-8739-ebebb1f324f8" testId="c288a13f-0451-3445-6540-e8ef39e23749" testName="IsNotNullTest" computerName="IC-JINCL-PC" duration="00:00:00.0001589" startTime="2012-03-31T15:10:45.9000041+08:00" endTime="2012-03-31T15:10:45.9030044+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e6b9a17-9227-4a0b-8739-ebebb1f324f8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

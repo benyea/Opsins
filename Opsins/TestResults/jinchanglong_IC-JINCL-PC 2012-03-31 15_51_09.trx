@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="298e5da0-da14-446e-9515-0e4c8cae98f6" name="jinchanglong@IC-JINCL-PC 2012-03-31 15:51:09" runUser="YGSOFT\jinchanglong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="94953c09-8701-4707-8647-9dc35c1618b9">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="jinchanglong_IC-JINCL-PC 2012-03-31 15_51_09">
+      <DeploymentItem filename="E:\Opsins\Src\Opsins\Opsins.Library\bin\Debug\Opsins.Library.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-31T15:51:09.8063658+08:00" queuing="2012-03-31T15:51:09.8803732+08:00" start="2012-03-31T15:51:09.8933745+08:00" finish="2012-03-31T15:51:10.2344086+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IfEmptyTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="6e069d72-b39c-50f4-60da-df39cdd5a551">
+      <Execution id="cc297782-b255-41a1-a26a-f33883da4dca" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.StringExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfEmptyTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="a1279ef0-3705-7059-b92c-e33be4fdb376">
+      <Execution id="4319af90-05ad-48df-9b50-77357f84b95e" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Library.Tests.UnitTest1, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="InStringTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="16fe6d19-c90e-0c23-1cc7-b671ce3deb65">
+      <Execution id="d4be7b63-7255-4788-afe3-b009f4d58c7d" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.InExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InStringTest" />
+    </UnitTest>
+    <UnitTest name="IsEmptyTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="7c689c7a-6c72-177e-a892-0b7dd1e53be4">
+      <Execution id="9e9ce332-5fd7-49ce-843d-d7f98396ff50" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.StringExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsEmptyTest" />
+    </UnitTest>
+    <UnitTest name="CompareTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="355153fc-9698-af6c-afee-71fb9023e7f6">
+      <Execution id="acfef734-aaf3-49aa-96c1-639f7465f915" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.StringExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompareTest" />
+    </UnitTest>
+    <UnitTest name="IsNotEmptyTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="744b9d1f-c5ad-bcc6-25b9-ed9440921294">
+      <Execution id="32c6cb40-8961-444b-9c4c-3cc7c197b0cb" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.StringExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="IsNullTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="aa4e672c-5404-54fc-a1af-8cb83c13c098">
+      <Execution id="8ba3ea98-3499-4abd-aefe-9a91916fa4ac" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.ObjectExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNullTest" />
+    </UnitTest>
+    <UnitTest name="IsWhiteSpaceTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="8f549c65-52db-6350-d6ac-29e3fc4c43e7">
+      <Execution id="7a00b22f-c00c-4724-bad8-c1ad9fa34fee" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.StringExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsWhiteSpaceTest" />
+    </UnitTest>
+    <UnitTest name="IsNotNullTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="c288a13f-0451-3445-6540-e8ef39e23749">
+      <Execution id="bf7af891-84e2-4a1f-9023-a312ae8a2567" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.ObjectExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNotNullTest" />
+    </UnitTest>
+    <UnitTest name="IfNullTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="881a11f1-bd7a-8201-d1f8-bd84ba9f4b6e">
+      <Execution id="c909430b-505c-4ce0-94b4-92ecc5d20a70" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.ObjectExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IfNullTest" />
+    </UnitTest>
+    <UnitTest name="NotInIntTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="24f7f4f8-86be-fe4e-e97a-5247b87b2ad9">
+      <Execution id="1a849fb0-1d30-4484-955b-dfa25d7aa3bd" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.InExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotInIntTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="16fe6d19-c90e-0c23-1cc7-b671ce3deb65" executionId="d4be7b63-7255-4788-afe3-b009f4d58c7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24f7f4f8-86be-fe4e-e97a-5247b87b2ad9" executionId="1a849fb0-1d30-4484-955b-dfa25d7aa3bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="355153fc-9698-af6c-afee-71fb9023e7f6" executionId="acfef734-aaf3-49aa-96c1-639f7465f915" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e069d72-b39c-50f4-60da-df39cdd5a551" executionId="cc297782-b255-41a1-a26a-f33883da4dca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="744b9d1f-c5ad-bcc6-25b9-ed9440921294" executionId="32c6cb40-8961-444b-9c4c-3cc7c197b0cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c689c7a-6c72-177e-a892-0b7dd1e53be4" executionId="9e9ce332-5fd7-49ce-843d-d7f98396ff50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="881a11f1-bd7a-8201-d1f8-bd84ba9f4b6e" executionId="c909430b-505c-4ce0-94b4-92ecc5d20a70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f549c65-52db-6350-d6ac-29e3fc4c43e7" executionId="7a00b22f-c00c-4724-bad8-c1ad9fa34fee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1279ef0-3705-7059-b92c-e33be4fdb376" executionId="4319af90-05ad-48df-9b50-77357f84b95e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa4e672c-5404-54fc-a1af-8cb83c13c098" executionId="8ba3ea98-3499-4abd-aefe-9a91916fa4ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c288a13f-0451-3445-6540-e8ef39e23749" executionId="bf7af891-84e2-4a1f-9023-a312ae8a2567" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d4be7b63-7255-4788-afe3-b009f4d58c7d" testId="16fe6d19-c90e-0c23-1cc7-b671ce3deb65" testName="InStringTest" computerName="IC-JINCL-PC" duration="00:00:00.0165841" startTime="2012-03-31T15:51:09.9023754+08:00" endTime="2012-03-31T15:51:10.1353987+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4be7b63-7255-4788-afe3-b009f4d58c7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a849fb0-1d30-4484-955b-dfa25d7aa3bd" testId="24f7f4f8-86be-fe4e-e97a-5247b87b2ad9" testName="NotInIntTest" computerName="IC-JINCL-PC" duration="00:00:00.0005992" startTime="2012-03-31T15:51:10.1413993+08:00" endTime="2012-03-31T15:51:10.1453997+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a849fb0-1d30-4484-955b-dfa25d7aa3bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="acfef734-aaf3-49aa-96c1-639f7465f915" testId="355153fc-9698-af6c-afee-71fb9023e7f6" testName="CompareTest" computerName="IC-JINCL-PC" duration="00:00:00.0003890" startTime="2012-03-31T15:51:10.1494001+08:00" endTime="2012-03-31T15:51:10.1534005+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acfef734-aaf3-49aa-96c1-639f7465f915">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc297782-b255-41a1-a26a-f33883da4dca" testId="6e069d72-b39c-50f4-60da-df39cdd5a551" testName="IfEmptyTest" computerName="IC-JINCL-PC" duration="00:00:00.0002459" startTime="2012-03-31T15:51:10.1594011+08:00" endTime="2012-03-31T15:51:10.1614013+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc297782-b255-41a1-a26a-f33883da4dca">
+    </UnitTestResult>
+    <UnitTestResult executionId="32c6cb40-8961-444b-9c4c-3cc7c197b0cb" testId="744b9d1f-c5ad-bcc6-25b9-ed9440921294" testName="IsNotEmptyTest" computerName="IC-JINCL-PC" duration="00:00:00.0002274" startTime="2012-03-31T15:51:10.1674019+08:00" endTime="2012-03-31T15:51:10.1704022+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32c6cb40-8961-444b-9c4c-3cc7c197b0cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e9ce332-5fd7-49ce-843d-d7f98396ff50" testId="7c689c7a-6c72-177e-a892-0b7dd1e53be4" testName="IsEmptyTest" computerName="IC-JINCL-PC" duration="00:00:00.0002224" startTime="2012-03-31T15:51:10.1754027+08:00" endTime="2012-03-31T15:51:10.1774029+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e9ce332-5fd7-49ce-843d-d7f98396ff50">
+    </UnitTestResult>
+    <UnitTestResult executionId="c909430b-505c-4ce0-94b4-92ecc5d20a70" testId="881a11f1-bd7a-8201-d1f8-bd84ba9f4b6e" testName="IfNullTest" computerName="IC-JINCL-PC" duration="00:00:00.0005436" startTime="2012-03-31T15:51:10.1824034+08:00" endTime="2012-03-31T15:51:10.1864038+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c909430b-505c-4ce0-94b4-92ecc5d20a70">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a00b22f-c00c-4724-bad8-c1ad9fa34fee" testId="8f549c65-52db-6350-d6ac-29e3fc4c43e7" testName="IsWhiteSpaceTest" computerName="IC-JINCL-PC" duration="00:00:00.0002334" startTime="2012-03-31T15:51:10.1924044+08:00" endTime="2012-03-31T15:51:10.1944046+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a00b22f-c00c-4724-bad8-c1ad9fa34fee">
+    </UnitTestResult>
+    <UnitTestResult executionId="4319af90-05ad-48df-9b50-77357f84b95e" testId="a1279ef0-3705-7059-b92c-e33be4fdb376" testName="TestMethod1" computerName="IC-JINCL-PC" duration="00:00:00.0001479" startTime="2012-03-31T15:51:10.1994051+08:00" endTime="2012-03-31T15:51:10.2014053+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4319af90-05ad-48df-9b50-77357f84b95e">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ba3ea98-3499-4abd-aefe-9a91916fa4ac" testId="aa4e672c-5404-54fc-a1af-8cb83c13c098" testName="IsNullTest" computerName="IC-JINCL-PC" duration="00:00:00.0002387" startTime="2012-03-31T15:51:10.2074059+08:00" endTime="2012-03-31T15:51:10.2094061+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ba3ea98-3499-4abd-aefe-9a91916fa4ac">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf7af891-84e2-4a1f-9023-a312ae8a2567" testId="c288a13f-0451-3445-6540-e8ef39e23749" testName="IsNotNullTest" computerName="IC-JINCL-PC" duration="00:00:00.0002972" startTime="2012-03-31T15:51:10.2144066+08:00" endTime="2012-03-31T15:51:10.2184070+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf7af891-84e2-4a1f-9023-a312ae8a2567">
+    </UnitTestResult>
+  </Results>
+</TestRun>

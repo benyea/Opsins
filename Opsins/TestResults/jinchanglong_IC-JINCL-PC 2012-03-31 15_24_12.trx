@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4c6971e7-c2fc-4d24-9a42-9374263a1210" name="jinchanglong@IC-JINCL-PC 2012-03-31 15:24:12" runUser="YGSOFT\jinchanglong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="94953c09-8701-4707-8647-9dc35c1618b9">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="jinchanglong_IC-JINCL-PC 2012-03-31 15_24_12">
+      <DeploymentItem filename="E:\Opsins\Src\Opsins\Opsins.Library\bin\Debug\Opsins.Library.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-31T15:24:12.4407373+08:00" queuing="2012-03-31T15:24:12.5867665+08:00" start="2012-03-31T15:24:12.6137719+08:00" finish="2012-03-31T15:24:12.9028297+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsEmptyTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="7c689c7a-6c72-177e-a892-0b7dd1e53be4">
+      <Execution id="e5cc290c-d8ea-4d83-a38a-1f9c9ad7b522" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.StringExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsEmptyTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7c689c7a-6c72-177e-a892-0b7dd1e53be4" executionId="e5cc290c-d8ea-4d83-a38a-1f9c9ad7b522" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e5cc290c-d8ea-4d83-a38a-1f9c9ad7b522" testId="7c689c7a-6c72-177e-a892-0b7dd1e53be4" testName="IsEmptyTest" computerName="IC-JINCL-PC" duration="00:00:00.0164368" startTime="2012-03-31T15:24:12.6517795+08:00" endTime="2012-03-31T15:24:12.8828257+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5cc290c-d8ea-4d83-a38a-1f9c9ad7b522">
+    </UnitTestResult>
+  </Results>
+</TestRun>

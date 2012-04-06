@@ -1,0 +1,14 @@
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Opsins.Library.Tests.dll
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Opsins.Library.Tests.pdb
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Opsins.Library.dll
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Opsins.Library.pdb
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\obj\Debug\Opsins.Library.Tests.csprojResolveAssemblyReference.cache
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\obj\Debug\Opsins.Library.Tests.dll
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\obj\Debug\Opsins.Library.Tests.pdb
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Autofac.Configuration.dll
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Autofac.dll
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Autofac.xml
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Newtonsoft.Json.pdb
+E:\Opsins\Src\Opsins\Opsins.Library.Tests\bin\Debug\Newtonsoft.Json.xml

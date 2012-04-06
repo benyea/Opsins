@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{200A9B08-76A1-4B57-8BF9-6F76841A1E23}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Opsins</RootNamespace>
+    <AssemblyName>Opsins.Library</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infra\Ioc\DependencyResolverFactory.cs" />
+    <Compile Include="Infra\Ioc\IDependencyResolver.cs" />
+    <Compile Include="Infra\Ioc\IDependencyResolverFactory.cs" />
+    <Compile Include="Infra\Ioc\Ioc.cs" />
+    <Compile Include="_Core\Attribute\DescriptAttribute.cs" />
+    <Compile Include="_Core\Base\EnumItem.cs" />
+    <Compile Include="_Core\Base\MapItem.cs" />
+    <Compile Include="_Core\Base\SystemTime.cs" />
+    <Compile Include="_Core\Checker.cs" />
+    <Compile Include="_Core\Constants\ConstHelper.cs" />
+    <Compile Include="_Core\Crypt\AesDesBase64Encrypt.cs" />
+    <Compile Include="_Core\Crypt\HmacEncrypt.cs" />
+    <Compile Include="_Core\Crypt\Md5ShaEncrypt.cs" />
+    <Compile Include="_Core\Disposable.cs" />
+    <Compile Include="_Core\Exception\XException.cs" />
+    <Compile Include="_Core\Extensions\Specialized\ColorExtensions.cs" />
+    <Compile Include="_Core\Extensions\Specialized\GlobalizedExtensions.cs" />
+    <Compile Include="_Core\Extensions\Specialized\StringSpecialExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\ArrayExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\AssemblyExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\BooleanExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\ByteExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Collections\Generic\CollectionExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Collections\Generic\DictionaryExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Collections\Generic\IEnumerableConverterExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Collections\Generic\IEnumerableExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Collections\Generic\IListExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Collections\Specialized\NameValueCollectionExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\CrypeEntensions.cs" />
+    <Compile Include="_Core\Extensions\System\DateTimeExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\GuidExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\IntegerExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\InExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\IO\StreamExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Linq\WhereExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\ObjectExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\StringExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\Text\StringBuilderExtensions.cs" />
+    <Compile Include="_Core\Extensions\System\TypeExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Core\Helpers\AppsetHelper.cs" />
+    <Compile Include="_Core\Helpers\DateHelper.cs" />
+    <Compile Include="_Core\Helpers\ImageHelper.cs" />
+    <Compile Include="_Core\Helpers\IniHelp.cs" />
+    <Compile Include="_Core\Helpers\MachineHelper.cs" />
+    <Compile Include="_Core\Helpers\RandHelper.cs" />
+    <Compile Include="_Core\Helpers\ReflectionHelper.cs" />
+    <Compile Include="_Core\Helpers\SerializerHelper.cs" />
+    <Compile Include="_Core\Helpers\TimeHelper.cs" />
+    <Compile Include="_Core\Helpers\VersionHelper.cs" />
+    <Compile Include="_Core\IO\IOHelper.cs" />
+    <Compile Include="_Core\Utils\AntiXss.cs" />
+    <Compile Include="_Core\Utils\AuthCodeBuilder.cs" />
+    <Compile Include="_Core\Utils\ID.cs" />
+    <Compile Include="_Core\Utils\JSMinifier.cs" />
+    <Compile Include="_Core\Utils\TimeSpanWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

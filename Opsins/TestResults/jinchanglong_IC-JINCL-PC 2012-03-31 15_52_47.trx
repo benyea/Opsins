@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8fcd44b9-c025-4ddd-ad9e-79a017838a54" name="jinchanglong@IC-JINCL-PC 2012-03-31 15:52:47" runUser="YGSOFT\jinchanglong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="94953c09-8701-4707-8647-9dc35c1618b9">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="jinchanglong_IC-JINCL-PC 2012-03-31 15_52_47">
+      <DeploymentItem filename="E:\Opsins\Src\Opsins\Opsins.Library\bin\Debug\Opsins.Library.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-31T15:52:47.1550997+08:00" queuing="2012-03-31T15:52:47.2481090+08:00" start="2012-03-31T15:52:47.2581100+08:00" finish="2012-03-31T15:52:47.5191361+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CompareIngoreTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="6ae9593e-97ec-c65d-1b2b-cdd64d791f38">
+      <Execution id="ba4611df-9cef-4232-b009-f94200ad3dc0" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.StringExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompareIngoreTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6ae9593e-97ec-c65d-1b2b-cdd64d791f38" executionId="ba4611df-9cef-4232-b009-f94200ad3dc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ba4611df-9cef-4232-b009-f94200ad3dc0" testId="6ae9593e-97ec-c65d-1b2b-cdd64d791f38" testName="CompareIngoreTest" computerName="IC-JINCL-PC" duration="00:00:00.0254617" startTime="2012-03-31T15:52:47.2651107+08:00" endTime="2012-03-31T15:52:47.5011343+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba4611df-9cef-4232-b009-f94200ad3dc0">
+    </UnitTestResult>
+  </Results>
+</TestRun>

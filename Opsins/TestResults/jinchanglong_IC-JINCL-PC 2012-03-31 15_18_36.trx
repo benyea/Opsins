@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="59498afb-8cbe-4ba8-b06a-85e21a144fca" name="jinchanglong@IC-JINCL-PC 2012-03-31 15:18:36" runUser="YGSOFT\jinchanglong" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="94953c09-8701-4707-8647-9dc35c1618b9">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="jinchanglong_IC-JINCL-PC 2012-03-31 15_18_36">
+      <DeploymentItem filename="E:\Opsins\Src\Opsins\Opsins.Library\bin\Debug\Opsins.Library.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-31T15:18:36.6470741+08:00" queuing="2012-03-31T15:18:36.8110905+08:00" start="2012-03-31T15:18:36.8200914+08:00" finish="2012-03-31T15:18:37.0841178+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsNullTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="aa4e672c-5404-54fc-a1af-8cb83c13c098">
+      <Execution id="0e07fd6b-5d1c-424b-bf48-3901ebf28e2a" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.ObjectExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNullTest" />
+    </UnitTest>
+    <UnitTest name="IsNotNullTest" storage="e:\opsins\src\opsins\opsins.library.tests\bin\debug\opsins.library.tests.dll" id="c288a13f-0451-3445-6540-e8ef39e23749">
+      <Execution id="631ba86d-a4d8-4fed-9a46-aa6771c6f405" />
+      <TestMethod codeBase="E:/Opsins/Src/Opsins/Opsins.Library.Tests/bin/Debug/Opsins.Library.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Opsins.Tests.ObjectExtensionsTest, Opsins.Library.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNotNullTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="aa4e672c-5404-54fc-a1af-8cb83c13c098" executionId="0e07fd6b-5d1c-424b-bf48-3901ebf28e2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c288a13f-0451-3445-6540-e8ef39e23749" executionId="631ba86d-a4d8-4fed-9a46-aa6771c6f405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0e07fd6b-5d1c-424b-bf48-3901ebf28e2a" testId="aa4e672c-5404-54fc-a1af-8cb83c13c098" testName="IsNullTest" computerName="IC-JINCL-PC" duration="00:00:00.0224129" startTime="2012-03-31T15:18:36.8260920+08:00" endTime="2012-03-31T15:18:37.0561150+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e07fd6b-5d1c-424b-bf48-3901ebf28e2a">
+    </UnitTestResult>
+    <UnitTestResult executionId="631ba86d-a4d8-4fed-9a46-aa6771c6f405" testId="c288a13f-0451-3445-6540-e8ef39e23749" testName="IsNotNullTest" computerName="IC-JINCL-PC" duration="00:00:00.0002185" startTime="2012-03-31T15:18:37.0621156+08:00" endTime="2012-03-31T15:18:37.0651159+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="631ba86d-a4d8-4fed-9a46-aa6771c6f405">
+    </UnitTestResult>
+  </Results>
+</TestRun>
